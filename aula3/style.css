@@ -1,0 +1,22 @@
+body{
+	font-family: arial
+}
+
+h1{
+	font-size: 50pt;
+	color: red;
+	background-color: #5DF0B3;
+	text-align: center;
+	padding: 30px;
+	margin: 30px;
+}
+
+.destaque{
+	font-size: 20px;
+	text-align: right;
+}
+
+.pequeno{
+	font-size: 10px;
+	text-align: left;
+}
