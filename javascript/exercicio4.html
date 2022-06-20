@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javacript</title>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+
+	<script>
+		var media = 6
+		var faltas = 20
+
+		var notaAluno = prompt('Digite a nota do aluno(a):')
+		var faltasAluno = prompt('Digite as faltas do aluno(a):')
+
+		// true && true - e : true || true - ou
+		if (notaAluno >= media && faltasAluno <= faltas) {
+			document.write('<h1>APROVADO</h1>')
+		} else if(notaAluno >= 1 && faltasAluno <= faltas) {
+			document.write('<h1>EM EXAME FINAL</h1>')
+		} else {
+			document.write('<h1>REPROVADO</h1>')
+
+		}
+	</script>
+
+</body>
+</html>

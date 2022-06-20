@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javacript</title>
+	<meta charset="utf-8">
+	
+</head>
+<body>
+
+	<script>
+		var nota1 = prompt('Digite a nota 1')
+		var nota2 = prompt('Digite a nota 2')
+		var faltas = prompt('Digite as faltas do aluno')
+
+		var mediaFaltas = 20
+		nota1 = parseInt(nota1)
+		nota2 = parseInt(nota1)
+
+		media = (nota1 + nota2)/2
+		if (media >= 6 && faltas <= mediaFaltas) {
+			document.write('<h1>APROVADO</h1>')
+		} else if(media >= 1 && faltas <= mediaFaltas) {
+			document.write('<h1>EM EXAME FINAL</h1>')
+		} else {
+			document.write('<h1>REPROVADO</h1>')
+
+		}
+	</script>
+
+</body>
+</html>
